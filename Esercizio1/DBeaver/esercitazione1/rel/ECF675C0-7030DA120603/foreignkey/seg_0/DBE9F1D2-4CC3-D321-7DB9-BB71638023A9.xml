@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="DBE9F1D2-4CC3-D321-7DB9-BB71638023A9" containerWithKeyObject="7120B886-7390-8BCB-4466-8E91099D9B15" localFKIndex="556D1CE4-7C1D-8D61-328C-35BBDFDF18B9" name="Utente_Videogiochi_FK">
+<createdBy>doppia</createdBy>
+<createdTime>2023-11-28 11:16:17 UTC</createdTime>
+<generatorID>B2739965-4754-1D76-592F-513988FD557F</generatorID>
+<ownerDesignName>esercitazione1</ownerDesignName>
+<referredTableLongName>Videogiochi</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>14A13BD3-F589-E279-81B5-10C496700A7A</referredTableID>
+<keyObject>D3CE5098-FD2C-0209-1611-CDFC8ED98D3A</keyObject>
+<referredKeyID>D3CE5098-FD2C-0209-1611-CDFC8ED98D3A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CodiceUnivoco</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

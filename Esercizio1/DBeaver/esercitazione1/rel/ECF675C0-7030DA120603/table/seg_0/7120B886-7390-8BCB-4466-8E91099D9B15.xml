@@ -1,0 +1,156 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7120B886-7390-8BCB-4466-8E91099D9B15" name="Utente">
+<createdBy>doppia</createdBy>
+<createdTime>2023-11-28 11:16:16 UTC</createdTime>
+<generatorID>4EAE61F9-6378-BD3A-9DC1-85F80B63415E</generatorID>
+<ownerDesignName>esercitazione1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="email" id="263934E4-D332-87AF-F8AF-F264687B05A3">
+<createdBy>doppia</createdBy>
+<createdTime>2023-11-28 11:16:16 UTC</createdTime>
+<generatorID>DDFD7851-D507-5801-57DD-644FE7C8ABF9</generatorID>
+<ownerDesignName>esercitazione1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nome" id="58E5617F-34F6-B3C3-7C07-1007DAB5DEF9">
+<createdBy>doppia</createdBy>
+<createdTime>2023-11-28 11:16:17 UTC</createdTime>
+<generatorID>DBB154A5-398E-9574-0162-0D4564C29643</generatorID>
+<ownerDesignName>esercitazione1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Cognome" id="122EAEBE-2A92-A995-634A-9AB3713D07B3">
+<createdBy>doppia</createdBy>
+<createdTime>2023-11-28 11:16:17 UTC</createdTime>
+<generatorID>C188C232-B0A2-D2BA-31F2-05C41375CFA8</generatorID>
+<ownerDesignName>esercitazione1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Password" id="7BAF4F92-D468-9C06-E6AE-55A03A418D44">
+<createdBy>doppia</createdBy>
+<createdTime>2023-11-28 11:16:17 UTC</createdTime>
+<generatorID>83CF88F0-C187-F29F-B7A3-AF354315E999</generatorID>
+<ownerDesignName>esercitazione1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Videogiochi_CodiceUnivoco" id="4F561900-D08A-CB72-EAB3-6048C8CFC99D">
+<createdBy>doppia</createdBy>
+<createdTime>2023-11-28 11:16:17 UTC</createdTime>
+<generatorID>D5BD9885-43AE-916D-8B63-AF6DFFE26528</generatorID>
+<ownerDesignName>esercitazione1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DBE9F1D2-4CC3-D321-7DB9-BB71638023A9" referredColumn="DC1DB129-7257-6DDD-4F27-D96B9F7CBE53"/>
+</associations>
+</Column>
+<Column name="IDsessione" id="65952CEB-9372-1BDD-595A-4D90BA16EBA0">
+<createdBy>doppia</createdBy>
+<createdTime>2023-11-28 11:16:17 UTC</createdTime>
+<generatorID>DD8C53C7-52AD-BBE2-3D9E-A19BF05C1B3E</generatorID>
+<ownerDesignName>esercitazione1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<dependOnForeignKeyID>DBE9F1D2-4CC3-D321-7DB9-BB71638023A9</dependOnForeignKeyID>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+<Column name="OraInizio" id="5DC0AA74-76E4-D2DA-F7A9-015DB47A8850">
+<createdBy>doppia</createdBy>
+<createdTime>2023-11-28 11:16:17 UTC</createdTime>
+<generatorID>75E3B1F1-7C50-C38B-BE27-79D5A8DE6731</generatorID>
+<ownerDesignName>esercitazione1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<dependOnForeignKeyID>DBE9F1D2-4CC3-D321-7DB9-BB71638023A9</dependOnForeignKeyID>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+<Column name="OraFine" id="B8EB9E50-4B33-413F-3199-BD2EBF151D93">
+<createdBy>doppia</createdBy>
+<createdTime>2023-11-28 11:16:17 UTC</createdTime>
+<generatorID>D644DE3B-7C1C-C292-2758-2CC48304AC30</generatorID>
+<ownerDesignName>esercitazione1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<dependOnForeignKeyID>DBE9F1D2-4CC3-D321-7DB9-BB71638023A9</dependOnForeignKeyID>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+<Column name="LivelloRaggiunto" id="C77BFAF6-6822-4AFE-3329-343382B962DD">
+<createdBy>doppia</createdBy>
+<createdTime>2023-11-28 11:16:17 UTC</createdTime>
+<generatorID>AD9AC354-3498-37E8-9031-EDF080D4193F</generatorID>
+<ownerDesignName>esercitazione1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<dependOnForeignKeyID>DBE9F1D2-4CC3-D321-7DB9-BB71638023A9</dependOnForeignKeyID>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F9034D00-D730-1CAD-663A-11548C0389B2" name="Utente_PK">
+<createdBy>doppia</createdBy>
+<createdTime>2023-11-28 11:16:17 UTC</createdTime>
+<generatorID>FE8E8BDB-C484-CD73-BC72-154F66597E34</generatorID>
+<ownerDesignName>esercitazione1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="263934E4-D332-87AF-F8AF-F264687B05A3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="556D1CE4-7C1D-8D61-328C-35BBDFDF18B9" name="Utente_Videogiochi_FK">
+<createdBy>doppia</createdBy>
+<createdTime>2023-11-28 11:16:17 UTC</createdTime>
+<generatorID>B2739965-4754-1D76-592F-513988FD557F</generatorID>
+<ownerDesignName>esercitazione1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4F561900-D08A-CB72-EAB3-6048C8CFC99D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

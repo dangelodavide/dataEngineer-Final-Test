@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="esercitazione2" id="D923B31F-D0CB-19F2-4496-E55C0498D1C4" version="3.5">
+<createdBy>doppia</createdBy>
+<createdTime>2023-11-28 11:34:30 UTC</createdTime>
+<ownerDesignName>esercitazione2</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>D923B31F-D0CB-19F2-4496-E55C0498D1C4</designId>
+</OSDM_Design>

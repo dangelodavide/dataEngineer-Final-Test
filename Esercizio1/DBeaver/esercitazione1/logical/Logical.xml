@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="47C3BAE7-7DD7-7EAB-C3DB-1B7211C0A8E1" mainViewID="F1EFC99C-C093-B29F-08B5-8304314C2DD8">
+<createdBy>doppia</createdBy>
+<createdTime>2023-11-28 11:08:31 UTC</createdTime>
+<ownerDesignName>esercitazione1</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

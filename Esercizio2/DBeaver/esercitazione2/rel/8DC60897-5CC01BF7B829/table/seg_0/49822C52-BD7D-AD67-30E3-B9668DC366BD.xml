@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="49822C52-BD7D-AD67-30E3-B9668DC366BD" name="Attore">
+<createdBy>doppia</createdBy>
+<createdTime>2023-11-28 11:40:11 UTC</createdTime>
+<generatorID>4E0CE9ED-AB87-9F47-4634-294EC395F5E4</generatorID>
+<ownerDesignName>esercitazione2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IDAttore" id="46AD6226-3FA0-C825-D42A-E2D0ECD7533E">
+<createdBy>doppia</createdBy>
+<createdTime>2023-11-28 11:40:11 UTC</createdTime>
+<generatorID>F8E932AA-A152-75AB-1110-2E222FFD7D35</generatorID>
+<ownerDesignName>esercitazione2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dataNascita" id="4A9E4912-33C6-336C-444C-C385791BEF69">
+<createdBy>doppia</createdBy>
+<createdTime>2023-11-28 11:40:11 UTC</createdTime>
+<generatorID>07AAED97-FC71-28CF-F96C-01DBD1E831C1</generatorID>
+<ownerDesignName>esercitazione2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nome" id="C09AF95B-9AF3-D9D8-6C61-04E70CB4F1CF">
+<createdBy>doppia</createdBy>
+<createdTime>2023-11-28 11:40:11 UTC</createdTime>
+<generatorID>B24112FC-DD9A-9CB7-5DAC-056620650758</generatorID>
+<ownerDesignName>esercitazione2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Cognome" id="01D4E5BD-C7CF-CE87-9939-4CC7A333EB7B">
+<createdBy>doppia</createdBy>
+<createdTime>2023-11-28 11:40:11 UTC</createdTime>
+<generatorID>A1154F4E-F3E6-1556-E2C2-784AD997CB1E</generatorID>
+<ownerDesignName>esercitazione2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Film_ID" id="ABD5D1E2-DFB8-9BC4-ACED-7CFE2116A7C6">
+<createdBy>doppia</createdBy>
+<createdTime>2023-11-28 11:40:11 UTC</createdTime>
+<generatorID>FEAAE4D3-168E-FCE2-68EB-B693BC349ACD</generatorID>
+<ownerDesignName>esercitazione2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8514880E-53D8-B7F2-19C8-50D2F806FBE6" referredColumn="7C6D4956-553A-33A7-17E8-253C7147A163"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7F869323-300C-5339-BE44-D753DEAD2EA7" name="Attore_Film_FK">
+<createdBy>doppia</createdBy>
+<createdTime>2023-11-28 11:40:11 UTC</createdTime>
+<generatorID>E9C579B4-4956-67BE-FBAC-CD8C0C1CE52E</generatorID>
+<ownerDesignName>esercitazione2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ABD5D1E2-DFB8-9BC4-ACED-7CFE2116A7C6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0795091D-2BF4-B9D4-287E-673ACC030E85" name="Film">
+<createdBy>doppia</createdBy>
+<createdTime>2023-11-28 11:40:11 UTC</createdTime>
+<generatorID>C9B12811-F8D6-EB06-B7CC-BF11BFF712E0</generatorID>
+<ownerDesignName>esercitazione2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="7C6D4956-553A-33A7-17E8-253C7147A163">
+<createdBy>doppia</createdBy>
+<createdTime>2023-11-28 11:40:11 UTC</createdTime>
+<generatorID>5EB0AB65-8C57-B148-BB84-86BDE01B065C</generatorID>
+<ownerDesignName>esercitazione2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Regista" id="87A7C2ED-D013-5A5A-7193-79D538EE3400">
+<createdBy>doppia</createdBy>
+<createdTime>2023-11-28 11:40:11 UTC</createdTime>
+<generatorID>FF07203B-2995-FC27-F76F-B19CAFB5B12D</generatorID>
+<ownerDesignName>esercitazione2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Titolo" id="74C69115-CAD2-79B8-D150-FDBD112B9F28">
+<createdBy>doppia</createdBy>
+<createdTime>2023-11-28 11:40:11 UTC</createdTime>
+<generatorID>E24F7F6E-5132-5343-FB47-27902C57BA0A</generatorID>
+<ownerDesignName>esercitazione2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Anno" id="3C5C5092-EC72-D0D2-6478-29A80BBD33AC">
+<createdBy>doppia</createdBy>
+<createdTime>2023-11-28 11:40:11 UTC</createdTime>
+<generatorID>769E8F1E-537F-8EA5-6649-FDD66DD602F7</generatorID>
+<ownerDesignName>esercitazione2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="094C4F3A-846B-DE09-D521-AED453FDF80E" name="Film_PK">
+<createdBy>doppia</createdBy>
+<createdTime>2023-11-28 11:40:11 UTC</createdTime>
+<generatorID>FFD012FC-DFDA-7B61-661C-BAE480465180</generatorID>
+<ownerDesignName>esercitazione2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7C6D4956-553A-33A7-17E8-253C7147A163"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

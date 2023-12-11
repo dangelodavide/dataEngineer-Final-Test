@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4EAE61F9-6378-BD3A-9DC1-85F80B63415E" name="Utente">
+<createdBy>doppia</createdBy>
+<createdTime>2023-11-28 11:12:10 UTC</createdTime>
+<ownerDesignName>esercitazione1</ownerDesignName>
+<engineerTo>
+<item key="ECF675C0-69CE-1C92-92F8-7030DA120603" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="email" id="DDFD7851-D507-5801-57DD-644FE7C8ABF9">
+<createdBy>doppia</createdBy>
+<createdTime>2023-11-28 11:12:15 UTC</createdTime>
+<ownerDesignName>esercitazione1</ownerDesignName>
+<engineerTo>
+<item key="ECF675C0-69CE-1C92-92F8-7030DA120603" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nome" id="DBB154A5-398E-9574-0162-0D4564C29643">
+<createdBy>doppia</createdBy>
+<createdTime>2023-11-28 11:14:01 UTC</createdTime>
+<ownerDesignName>esercitazione1</ownerDesignName>
+<engineerTo>
+<item key="ECF675C0-69CE-1C92-92F8-7030DA120603" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Cognome" id="C188C232-B0A2-D2BA-31F2-05C41375CFA8">
+<createdBy>doppia</createdBy>
+<createdTime>2023-11-28 11:14:09 UTC</createdTime>
+<ownerDesignName>esercitazione1</ownerDesignName>
+<engineerTo>
+<item key="ECF675C0-69CE-1C92-92F8-7030DA120603" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Password" id="83CF88F0-C187-F29F-B7A3-AF354315E999">
+<createdBy>doppia</createdBy>
+<createdTime>2023-11-28 11:14:19 UTC</createdTime>
+<ownerDesignName>esercitazione1</ownerDesignName>
+<engineerTo>
+<item key="ECF675C0-69CE-1C92-92F8-7030DA120603" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CodiceUnivoco" id="D5BD9885-43AE-916D-8B63-AF6DFFE26528">
+<createdBy>doppia</createdBy>
+<createdTime>2023-11-28 11:15:03 UTC</createdTime>
+<generatorID>B2739965-4754-1D76-592F-513988FD557F</generatorID>
+<ownerDesignName>esercitazione1</ownerDesignName>
+<engineerTo>
+<item key="ECF675C0-69CE-1C92-92F8-7030DA120603" value="true"/>
+</engineerTo>
+<referedAttribute>D7DE6599-30BE-EEB0-F227-7C64040FE29C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FE8E8BDB-C484-CD73-BC72-154F66597E34" name="Utente PK">
+<createdBy>doppia</createdBy>
+<createdTime>2023-11-28 11:13:42 UTC</createdTime>
+<ownerDesignName>esercitazione1</ownerDesignName>
+<engineerTo>
+<item key="ECF675C0-69CE-1C92-92F8-7030DA120603" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>DDFD7851-D507-5801-57DD-644FE7C8ABF9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

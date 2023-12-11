@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="EBF19F10-BA6E-6466-8F13-4DC57CD4DA91">
+<createdBy>doppia</createdBy>
+<createdTime>2023-11-28 11:34:30 UTC</createdTime>
+<ownerDesignName>esercitazione2</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

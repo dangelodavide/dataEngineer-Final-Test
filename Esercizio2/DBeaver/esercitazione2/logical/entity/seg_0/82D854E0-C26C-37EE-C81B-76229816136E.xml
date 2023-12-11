@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="82D854E0-C26C-37EE-C81B-76229816136E" name="Sala">
+<createdBy>doppia</createdBy>
+<createdTime>2023-11-28 11:38:35 UTC</createdTime>
+<ownerDesignName>esercitazione2</ownerDesignName>
+<engineerTo>
+<item key="8DC60897-F684-61DE-0701-5CC01BF7B829" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="B51E1FBD-2D3C-15F8-57EC-C9B7067AB002">
+<createdBy>doppia</createdBy>
+<createdTime>2023-11-28 11:38:40 UTC</createdTime>
+<ownerDesignName>esercitazione2</ownerDesignName>
+<engineerTo>
+<item key="8DC60897-F684-61DE-0701-5CC01BF7B829" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="capienzaMax" id="42CAC4C7-3D01-E23D-C9C4-59D2407B2B93">
+<createdBy>doppia</createdBy>
+<createdTime>2023-11-28 11:38:56 UTC</createdTime>
+<ownerDesignName>esercitazione2</ownerDesignName>
+<engineerTo>
+<item key="8DC60897-F684-61DE-0701-5CC01BF7B829" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Datetime" id="19B6E56C-126C-ACE9-3E9B-E2E5F9DC774E">
+<createdBy>doppia</createdBy>
+<createdTime>2023-11-28 11:50:43 UTC</createdTime>
+<generatorID>E876ABB8-DFB6-14B1-E4FE-81A4BFB4A471</generatorID>
+<ownerDesignName>esercitazione2</ownerDesignName>
+<engineerTo>
+<item key="8DC60897-F684-61DE-0701-5CC01BF7B829" value="true"/>
+</engineerTo>
+<referedAttribute>8F3645BA-F492-65B5-3052-4E67B190F93F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7BA95C85-331A-D3A7-8AA4-C6DDEDDE31A1" name="Sala PK">
+<createdBy>doppia</createdBy>
+<createdTime>2023-11-28 11:38:55 UTC</createdTime>
+<ownerDesignName>esercitazione2</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="8DC60897-F684-61DE-0701-5CC01BF7B829" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B51E1FBD-2D3C-15F8-57EC-C9B7067AB002</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

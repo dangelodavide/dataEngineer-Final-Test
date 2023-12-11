@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2EB71B95-53F3-ABA3-69FB-881B8DF9B6D2" name="Proiezione">
+<createdBy>doppia</createdBy>
+<createdTime>2023-11-28 11:40:11 UTC</createdTime>
+<generatorID>6C7E9730-4932-1CD0-F4C2-420C7E3AC925</generatorID>
+<ownerDesignName>esercitazione2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="OraInizio" id="8D6743D2-5D4F-EFA9-606F-DC99CC1D3F74">
+<createdBy>doppia</createdBy>
+<createdTime>2023-11-28 11:40:11 UTC</createdTime>
+<generatorID>7BA0E2C0-9832-4BFA-1D62-9938B75C7A54</generatorID>
+<ownerDesignName>esercitazione2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OraFine" id="ADAA714F-891E-3842-A376-6F1FA48D42BB">
+<createdBy>doppia</createdBy>
+<createdTime>2023-11-28 11:40:11 UTC</createdTime>
+<generatorID>4F91B530-D62B-9768-2649-D524B9DC0419</generatorID>
+<ownerDesignName>esercitazione2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Film_ID" id="FC0DDF85-D5CA-E220-4FEC-05C7789EE3DC">
+<createdBy>doppia</createdBy>
+<createdTime>2023-11-28 11:40:11 UTC</createdTime>
+<generatorID>25F47163-85E1-9DAE-AAE2-6E079E7CE9CE</generatorID>
+<ownerDesignName>esercitazione2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="79BD000C-9B2A-4B21-2B93-9AC59BF6571E" referredColumn="7C6D4956-553A-33A7-17E8-253C7147A163"/>
+</associations>
+</Column>
+<Column name="Proiezione_ID" id="18214366-500B-E5A8-0AFC-1AF745A8CD14">
+<createdBy>doppia</createdBy>
+<createdTime>2023-11-28 11:40:11 UTC</createdTime>
+<ownerDesignName>esercitazione2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="Datetime" id="7A9F63C8-B590-0FE5-8DCC-5F942B64A678">
+<createdBy>doppia</createdBy>
+<createdTime>2023-11-28 11:51:38 UTC</createdTime>
+<generatorID>8F3645BA-F492-65B5-3052-4E67B190F93F</generatorID>
+<ownerDesignName>esercitazione2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A965027E-B15F-42FE-E3E9-0E49D369B425" name="Proiezione_PK">
+<createdBy>doppia</createdBy>
+<createdTime>2023-11-28 11:40:11 UTC</createdTime>
+<ownerDesignName>esercitazione2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="18214366-500B-E5A8-0AFC-1AF745A8CD14"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F86968B8-3B52-0728-D7BF-4781E43675F9" name="Proiezione_Datetime_UN">
+<createdBy>doppia</createdBy>
+<createdTime>2023-11-28 11:51:38 UTC</createdTime>
+<generatorID>3E196645-000A-7F92-7460-08D8804D5DD4</generatorID>
+<ownerDesignName>esercitazione2</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7A9F63C8-B590-0FE5-8DCC-5F942B64A678"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FA013B9A-1D33-B951-02DE-F319523538A1" name="Proiezione_Film_FK">
+<createdBy>doppia</createdBy>
+<createdTime>2023-11-28 11:40:11 UTC</createdTime>
+<generatorID>CE6ADEF3-9351-7513-F318-39E550F3789E</generatorID>
+<ownerDesignName>esercitazione2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FC0DDF85-D5CA-E220-4FEC-05C7789EE3DC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

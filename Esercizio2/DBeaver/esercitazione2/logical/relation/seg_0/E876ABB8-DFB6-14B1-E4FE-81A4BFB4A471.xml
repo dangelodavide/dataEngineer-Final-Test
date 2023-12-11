@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="DOVE" directorySegmentName="seg_0" id="E876ABB8-DFB6-14B1-E4FE-81A4BFB4A471">
+<createdBy>doppia</createdBy>
+<createdTime>2023-11-28 11:39:26 UTC</createdTime>
+<ownerDesignName>esercitazione2</ownerDesignName>
+<engineerTo>
+<item key="8DC60897-F684-61DE-0701-5CC01BF7B829" value="true"/>
+</engineerTo>
+<sourcePk>3E196645-000A-7F92-7460-08D8804D5DD4</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>6C7E9730-4932-1CD0-F4C2-420C7E3AC925</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>82D854E0-C26C-37EE-C81B-76229816136E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

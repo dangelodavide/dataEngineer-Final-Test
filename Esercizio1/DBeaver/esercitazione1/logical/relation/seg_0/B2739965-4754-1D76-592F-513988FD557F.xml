@@ -1,0 +1,69 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_2" directorySegmentName="seg_0" id="B2739965-4754-1D76-592F-513988FD557F">
+<createdBy>doppia</createdBy>
+<createdTime>2023-11-28 11:15:03 UTC</createdTime>
+<ownerDesignName>esercitazione1</ownerDesignName>
+<engineerTo>
+<item key="ECF675C0-69CE-1C92-92F8-7030DA120603" value="true"/>
+</engineerTo>
+<sourcePk>AA2F60C3-0564-F80F-95C4-12004FDAEFED</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B23FAEDC-1F6D-EC79-1F46-29E47010BA2E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>4EAE61F9-6378-BD3A-9DC1-85F80B63415E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="IDsessione" id="DD8C53C7-52AD-BBE2-3D9E-A19BF05C1B3E">
+<createdBy>doppia</createdBy>
+<createdTime>2023-11-28 11:15:07 UTC</createdTime>
+<ownerDesignName>esercitazione1</ownerDesignName>
+<engineerTo>
+<item key="ECF675C0-69CE-1C92-92F8-7030DA120603" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+<attribute name="OraInizio" id="75E3B1F1-7C50-C38B-BE27-79D5A8DE6731">
+<createdBy>doppia</createdBy>
+<createdTime>2023-11-28 11:15:23 UTC</createdTime>
+<ownerDesignName>esercitazione1</ownerDesignName>
+<engineerTo>
+<item key="ECF675C0-69CE-1C92-92F8-7030DA120603" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+<attribute name="OraFine" id="D644DE3B-7C1C-C292-2758-2CC48304AC30">
+<createdBy>doppia</createdBy>
+<createdTime>2023-11-28 11:15:32 UTC</createdTime>
+<ownerDesignName>esercitazione1</ownerDesignName>
+<engineerTo>
+<item key="ECF675C0-69CE-1C92-92F8-7030DA120603" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+<attribute name="LivelloRaggiunto" id="AD9AC354-3498-37E8-9031-EDF080D4193F">
+<createdBy>doppia</createdBy>
+<createdTime>2023-11-28 11:15:51 UTC</createdTime>
+<ownerDesignName>esercitazione1</ownerDesignName>
+<engineerTo>
+<item key="ECF675C0-69CE-1C92-92F8-7030DA120603" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>

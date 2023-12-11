@@ -1,0 +1,6 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="Table" objectID="7120B886-7390-8BCB-4466-8E91099D9B15" name="Utente" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="ECF675C0-69CE-1C92-92F8-7030DA120603" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Table" objectID="14A13BD3-F589-E279-81B5-10C496700A7A" name="Videogiochi" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="ECF675C0-69CE-1C92-92F8-7030DA120603" propertySourceId="" propertyTargetId=""/>
+   <object objectType="FKIndexAssociation" objectID="DBE9F1D2-4CC3-D321-7DB9-BB71638023A9" name="Utente_Videogiochi_FK" seqName="seg_0" containerID="7120B886-7390-8BCB-4466-8E91099D9B15" refContainerID="14A13BD3-F589-E279-81B5-10C496700A7A" propertyClassName="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" propertyParentId="ECF675C0-69CE-1C92-92F8-7030DA120603" propertySourceId="14A13BD3-F589-E279-81B5-10C496700A7A" propertyTargetId="7120B886-7390-8BCB-4466-8E91099D9B15"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

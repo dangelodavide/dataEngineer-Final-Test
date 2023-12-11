@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B6D453AF-0C1A-608E-2073-C1B40E455193" containerWithKeyObject="5C2755F3-1F20-0119-D7C7-ED8445D9BED9" localFKIndex="F893BAD1-3904-B436-E852-C75C748A02B2" name="Sala_Proiezione_FK">
+<createdBy>doppia</createdBy>
+<createdTime>2023-11-28 11:40:11 UTC</createdTime>
+<generatorID>E876ABB8-DFB6-14B1-E4FE-81A4BFB4A471</generatorID>
+<ownerDesignName>esercitazione2</ownerDesignName>
+<referredTableLongName>Proiezione</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>2EB71B95-53F3-ABA3-69FB-881B8DF9B6D2</referredTableID>
+<keyObject>A965027E-B15F-42FE-E3E9-0E49D369B425</keyObject>
+<referredKeyID>A965027E-B15F-42FE-E3E9-0E49D369B425</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Proiezione_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

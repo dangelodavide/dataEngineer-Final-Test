@@ -1,0 +1,6 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="4EAE61F9-6378-BD3A-9DC1-85F80B63415E" name="Utente" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="47C3BAE7-7DD7-7EAB-C3DB-1B7211C0A8E1" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="B23FAEDC-1F6D-EC79-1F46-29E47010BA2E" name="Videogiochi" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="47C3BAE7-7DD7-7EAB-C3DB-1B7211C0A8E1" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Relation" objectID="B2739965-4754-1D76-592F-513988FD557F" name="Relation_2" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Relation" propertyParentId="47C3BAE7-7DD7-7EAB-C3DB-1B7211C0A8E1" propertySourceId="B23FAEDC-1F6D-EC79-1F46-29E47010BA2E" propertyTargetId="4EAE61F9-6378-BD3A-9DC1-85F80B63415E"/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

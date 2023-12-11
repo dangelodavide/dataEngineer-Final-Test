@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="ECF675C0-69CE-1C92-92F8-7030DA120603" mainViewID="783757E1-D5B5-4354-A3D9-9C9B295C38BE">
+<createdBy>doppia</createdBy>
+<createdTime>2023-11-28 11:08:31 UTC</createdTime>
+<ownerDesignName>esercitazione1</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+</relationalModel>

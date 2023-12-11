@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="14A13BD3-F589-E279-81B5-10C496700A7A" name="Videogiochi">
+<createdBy>doppia</createdBy>
+<createdTime>2023-11-28 11:16:17 UTC</createdTime>
+<generatorID>B23FAEDC-1F6D-EC79-1F46-29E47010BA2E</generatorID>
+<ownerDesignName>esercitazione1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CodiceUnivoco" id="DC1DB129-7257-6DDD-4F27-D96B9F7CBE53">
+<createdBy>doppia</createdBy>
+<createdTime>2023-11-28 11:16:17 UTC</createdTime>
+<generatorID>D7DE6599-30BE-EEB0-F227-7C64040FE29C</generatorID>
+<ownerDesignName>esercitazione1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Titolo" id="75F12CFD-EE64-EBB6-3A97-3835F0708699">
+<createdBy>doppia</createdBy>
+<createdTime>2023-11-28 11:16:17 UTC</createdTime>
+<generatorID>014AAB7A-28A9-F40D-8BEA-8747F4499199</generatorID>
+<ownerDesignName>esercitazione1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Descrizione" id="DFD80238-10B1-162D-E0DB-F3B73B281A69">
+<createdBy>doppia</createdBy>
+<createdTime>2023-11-28 11:16:17 UTC</createdTime>
+<generatorID>D19DED49-B9FC-E5F5-7553-4589A86EAFDE</generatorID>
+<ownerDesignName>esercitazione1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D3CE5098-FD2C-0209-1611-CDFC8ED98D3A" name="Videogiochi_PK">
+<createdBy>doppia</createdBy>
+<createdTime>2023-11-28 11:16:17 UTC</createdTime>
+<generatorID>AA2F60C3-0564-F80F-95C4-12004FDAEFED</generatorID>
+<ownerDesignName>esercitazione1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DC1DB129-7257-6DDD-4F27-D96B9F7CBE53"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

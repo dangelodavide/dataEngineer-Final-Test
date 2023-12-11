@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4E0CE9ED-AB87-9F47-4634-294EC395F5E4" name="Attore">
+<createdBy>doppia</createdBy>
+<createdTime>2023-11-28 11:35:44 UTC</createdTime>
+<ownerDesignName>esercitazione2</ownerDesignName>
+<engineerTo>
+<item key="8DC60897-F684-61DE-0701-5CC01BF7B829" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IDAttore" id="F8E932AA-A152-75AB-1110-2E222FFD7D35">
+<createdBy>doppia</createdBy>
+<createdTime>2023-11-28 11:35:51 UTC</createdTime>
+<ownerDesignName>esercitazione2</ownerDesignName>
+<engineerTo>
+<item key="8DC60897-F684-61DE-0701-5CC01BF7B829" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dataNascita" id="07AAED97-FC71-28CF-F96C-01DBD1E831C1">
+<createdBy>doppia</createdBy>
+<createdTime>2023-11-28 11:36:07 UTC</createdTime>
+<ownerDesignName>esercitazione2</ownerDesignName>
+<engineerTo>
+<item key="8DC60897-F684-61DE-0701-5CC01BF7B829" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nome" id="B24112FC-DD9A-9CB7-5DAC-056620650758">
+<createdBy>doppia</createdBy>
+<createdTime>2023-11-28 11:36:17 UTC</createdTime>
+<ownerDesignName>esercitazione2</ownerDesignName>
+<engineerTo>
+<item key="8DC60897-F684-61DE-0701-5CC01BF7B829" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Cognome" id="A1154F4E-F3E6-1556-E2C2-784AD997CB1E">
+<createdBy>doppia</createdBy>
+<createdTime>2023-11-28 11:36:37 UTC</createdTime>
+<ownerDesignName>esercitazione2</ownerDesignName>
+<engineerTo>
+<item key="8DC60897-F684-61DE-0701-5CC01BF7B829" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID" id="FEAAE4D3-168E-FCE2-68EB-B693BC349ACD">
+<createdBy>doppia</createdBy>
+<createdTime>2023-11-28 11:37:20 UTC</createdTime>
+<generatorID>E9C579B4-4956-67BE-FBAC-CD8C0C1CE52E</generatorID>
+<ownerDesignName>esercitazione2</ownerDesignName>
+<engineerTo>
+<item key="8DC60897-F684-61DE-0701-5CC01BF7B829" value="true"/>
+</engineerTo>
+<referedAttribute>5EB0AB65-8C57-B148-BB84-86BDE01B065C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

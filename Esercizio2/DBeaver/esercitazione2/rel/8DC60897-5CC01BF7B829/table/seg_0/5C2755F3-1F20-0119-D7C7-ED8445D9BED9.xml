@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5C2755F3-1F20-0119-D7C7-ED8445D9BED9" name="Sala">
+<createdBy>doppia</createdBy>
+<createdTime>2023-11-28 11:40:11 UTC</createdTime>
+<generatorID>82D854E0-C26C-37EE-C81B-76229816136E</generatorID>
+<ownerDesignName>esercitazione2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="CD539A49-049C-FECF-8353-5538D887F78E">
+<createdBy>doppia</createdBy>
+<createdTime>2023-11-28 11:40:11 UTC</createdTime>
+<generatorID>B51E1FBD-2D3C-15F8-57EC-C9B7067AB002</generatorID>
+<ownerDesignName>esercitazione2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="capienzaMax" id="995FE03D-50CB-F484-119A-DE7FC4E62C20">
+<createdBy>doppia</createdBy>
+<createdTime>2023-11-28 11:40:11 UTC</createdTime>
+<generatorID>42CAC4C7-3D01-E23D-C9C4-59D2407B2B93</generatorID>
+<ownerDesignName>esercitazione2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Proiezione_Proiezione_ID" id="98B6BDC8-A6E5-D230-3E8D-21BD6B37B46D">
+<createdBy>doppia</createdBy>
+<createdTime>2023-11-28 11:40:11 UTC</createdTime>
+<ownerDesignName>esercitazione2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Datetime" id="36325670-7CA5-960A-21A9-DE6A5A0D556E">
+<createdBy>doppia</createdBy>
+<createdTime>2023-11-28 11:51:38 UTC</createdTime>
+<generatorID>19B6E56C-126C-ACE9-3E9B-E2E5F9DC774E</generatorID>
+<ownerDesignName>esercitazione2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B6D453AF-0C1A-608E-2073-C1B40E455193" referredColumn="7A9F63C8-B590-0FE5-8DCC-5F942B64A678"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FDCBA71B-41BB-7178-4FBC-B624B8403365" name="Sala_PK">
+<createdBy>doppia</createdBy>
+<createdTime>2023-11-28 11:40:11 UTC</createdTime>
+<generatorID>7BA95C85-331A-D3A7-8AA4-C6DDEDDE31A1</generatorID>
+<ownerDesignName>esercitazione2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CD539A49-049C-FECF-8353-5538D887F78E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F893BAD1-3904-B436-E852-C75C748A02B2" name="Sala_Proiezione_FK">
+<createdBy>doppia</createdBy>
+<createdTime>2023-11-28 11:40:11 UTC</createdTime>
+<generatorID>E876ABB8-DFB6-14B1-E4FE-81A4BFB4A471</generatorID>
+<ownerDesignName>esercitazione2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="36325670-7CA5-960A-21A9-DE6A5A0D556E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
